@@ -1,8 +1,8 @@
 package puppy
 
 func Bark() string {
-	return "Woof"
+	return "Bark!"
 }
 func Barks() string {
-	return "Woof woof woof"
+	return "bark bark bark!"
 }
