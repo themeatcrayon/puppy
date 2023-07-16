@@ -12,5 +12,5 @@ func Barks() string {
 }
 
 func DogSays() {
-	dog.DogModule()
+	return dog.Speaks()
 }
