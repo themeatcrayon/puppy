@@ -5,6 +5,8 @@ Adding a tag for v1.0.0
 */
 
 import (
+	"fmt"
+
 	"github.com/prinsb/dog"
 )
 
@@ -17,4 +19,9 @@ func Barks() string {
 
 func BigBarks(s string) string {
 	return dog.WhenGrowUp(s)
+}
+
+func From11() {
+	fmt.Println("version 1.1.0")
+
 }
