@@ -26,6 +26,7 @@ func From11() {
 
 }
 
+// update for tag 1.2.1
 func From12() {
 	fmt.Println("version 1.2.0")
 
