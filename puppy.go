@@ -1,6 +1,8 @@
 package puppy
 
 import (
+	"fmt"
+
 	"github.com/prinsb/dog"
 )
 
@@ -12,5 +14,5 @@ func Barks() string {
 }
 
 func DogSays() {
-	return dog.DogModule()
+	fmt.Println(dog.DogModule())
 }
