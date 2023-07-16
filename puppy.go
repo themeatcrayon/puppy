@@ -1,5 +1,9 @@
 package puppy
 
+/*
+Adding a tag for v1.0.0
+*/
+
 import (
 	"github.com/prinsb/dog"
 )
