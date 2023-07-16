@@ -11,6 +11,6 @@ func Barks() string {
 	return "bark bark bark!"
 }
 
-func DogSays() {
-	dog.Speaks()
+func DogSays() string {
+	return dog.Speaks()
 }
