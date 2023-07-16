@@ -12,5 +12,5 @@ func Barks() string {
 }
 
 func DogSays() string {
-	return dog.Speaks()
+	return dog.WhenGrowUp()
 }
